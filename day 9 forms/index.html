@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <legend><b>Event Registration</b></legend>
+    <form>
+    <label for="name">Name</label>
+    <br>
+    <input type="text" name="name" id="name">
+    <br><br>
+    <label for="phone">Phone</label>
+    <br>
+    <input type="text" name="phone" id="phone">
+    <br><br>
+    <label for="email">Email</label>
+    <br>
+    <input type="email" name="email" id="email">
+    <br><br>
+    <label for="resume">Enter your resume</label>
+    <br>
+    <input type="file" name="resume" id="resume">
+    <br><br>
+    <label for="experience">Years of Experience</label>
+    <br>
+    <input type="number" name="experience" id="experience" min="0">
+    <br><br>
+    <label for="occupation">Occupation</label><br>
+    <select name="occupation" id="occupation">
+        <option value="student">Student</option>
+        <option value="teacher">Teacher</option>
+        <option value="engineer">Engineer</option>
+    </select>
+    <br><br>
+    <label for="interest">Topics of Interest</label>
+    <br>
+    <input type="checkbox" name="html" id="html"> <label for="html">HTML</label>
+    <br>
+    <input type="checkbox" name="css" id="css"> <label for="css">CSS</label>
+    <br>
+    <input type="checkbox" name="javascript" id="javascript"> <label for="javascript">JavaScript</label>
+    <br><br>
+    <label for="avlbl">Availability</label>
+    <br>
+    <input type="radio" name="availability" id="avlbl1" value="weekdays"> <label for="avlbl1">Weekdays</label>
+    <br>
+    <input type="radio" name="availability" id="avlbl2" value="weekends"> <label for="avlbl2">Weekends</label>
+    <br>
+    <input type="radio" name="availability" id="avlbl3" value="flexible"> <label for="avlbl3">Flexible</label>      
+    <br><br>
+    <label for="comm">Comments</label>
+    <br>
+    <textarea name="comments" id="comm" cols="30" rows="5" placeholder="Enter your comments here..."></textarea>
+    <br><br>
+    <input type="submit" value="Register">
+</form>
+</body>
+</html>
