@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Complex Form</h1>
+    <fieldset>
+        <legend>Personal Details</legend>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+        <br><br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <br><br>
+        <label for="phone">Phone</label>
+        <input type="number" name="phone" id="phone">
+        <br><br>
+        <label for="dob">Date of Birth</label>
+        <input type="date" name="dob" id="dob">
+        <br><br>
+        <label>Gender</label>
+        <input type="radio" name="gender" id="male" value="male">Male
+        <input type="radio" name="gender" id="female" value="female">Female
+        <br><br>
+        <label for="country">Country</label>
+<select name="country" id="country">
+    <option value="us">US</option>
+    <option value="india">India</option>
+</select>
+    </fieldset>
+<br><br>
+
+    <fieldset>
+        <legend style="padding: 2px;">Adress</legend>
+        <label for="street">Street</label>
+        <input type="text" name="street" id="street">
+        <br><br>
+        <label for="city">City</label>
+        <input type="text" name="city" id="city">
+        <br>
+        <br>
+        <label for="state">State</label>
+        <input type="text" name="state" id="state">
+        <br><br>
+        <label for="zcode">Zip Code</label>
+        <input type="number" name="zcode" id="zcode">
+    </fieldset>
+
+    <br><br>
+
+    <fieldset>
+        <legend>Other Information</legend>
+        <label for="comm">Comments</label>
+        <textarea name="comm" id="comm"></textarea>
+        <br><br>
+        <label for="agree">I agree to the terms and conditions</label>
+        <input type="checkbox" name="agree" id="agree">
+    </fieldset>
+
+    <br><br>
+
+    <input type="submit" name="submit" id="submit">
+</body>
+</html>
